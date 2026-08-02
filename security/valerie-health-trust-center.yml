@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.valeriehealth.com/
+platform: Vanta
+certifications: []
+notes: Vanta-hosted trust center confirmed live 2026-07-21 (page title "Valerie Health
+  Trust Center"). The report is a JavaScript app, so the certification list is not
+  exposed to static fetches and no named certifications could be verified. Valerie
+  Health's privacy policy (effective 2024-09-03) documents its HIPAA posture, operating
+  as a Business Associate handling PHI for Covered Entity enterprise customers.
+evidence:
+- source: https://trust.valeriehealth.com/
+  kind: trust-center
+  detail: DNS CNAME 66ed6bf70c6d0ef55578bf0c.cname.vantatrust.com (Vanta trust center),
+    HTTP 200, page titled "Valerie Health Trust Center"
+- source: https://valeriehealth.com/privacy
+  kind: privacy-policy
+  detail: HIPAA Business Associate / Covered Entity language; contact support@valeriehealth.com

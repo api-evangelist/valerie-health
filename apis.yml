@@ -1,9 +1,26 @@
 aid: valerie-health
 name: Valerie Health
-description: Valerie Health is a company surfaced as a portfolio company of general-catalyst, redpoint-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Valerie Health is an AI-powered front office platform for independent
+  healthcare provider groups, automating referral management, fax and document classification
+  and data extraction, appointment scheduling, and growth analytics on top of existing
+  EMR and practice management systems. Founded by Pete Shalek and Nitin Joshi and
+  backed by General Catalyst and Redpoint Ventures with a $30M Series A, the company
+  operates as a HIPAA Business Associate for its provider customers and publishes
+  a Vanta-hosted trust center, but does not currently publish a developer portal
+  or public API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/valerie-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/iZLx1jvlToZnH1ZDa8fgaiKIEE.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Referral Management
+- Scheduling
+- Document Automation
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://valeriehealth.com/
+- type: PrivacyPolicy
+  url: https://valeriehealth.com/privacy
+- type: TermsOfService
+  url: https://valeriehealth.com/terms
+- type: TrustCenter
+  url: security/valerie-health-trust-center.yml
+- type: Compliance
+  url: https://trust.valeriehealth.com/
+- type: DomainSecurity
+  url: security/valerie-health-domain-security.yml
+- type: LLMsTxt
+  url: llms/valerie-health-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/Valerie-Health
+- type: Support
+  url: mailto:support@valeriehealth.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/valerie-health/
+- type: Careers
+  url: https://valeriehealth.com/company/careers
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

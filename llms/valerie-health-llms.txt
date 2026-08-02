@@ -1,0 +1,28 @@
+# Valerie Health
+
+> Valerie Health is an AI-powered "front office" platform for independent healthcare provider groups. It automates referral management, fax and document classification/data extraction, appointment scheduling, and growth analytics, integrating with existing EMR and practice management systems. The company raised a $30M Series A (investors include General Catalyst and Redpoint Ventures) and operates as a HIPAA Business Associate for its Covered Entity customers. No public developer portal or API documentation is published.
+
+## Company
+
+- [Website](https://valeriehealth.com/): Product and company overview
+- [About](https://valeriehealth.com/company/about): Company background
+- [Customers](https://valeriehealth.com/customers): Customer stories
+- [Careers](https://valeriehealth.com/company/careers): Open roles
+- [LinkedIn](https://www.linkedin.com/company/valerie-health/): Company profile
+
+## Solutions
+
+- [Referral Automation](https://valeriehealth.com/solutions/referral-automation): Automated patient referral management
+- [Fax & Document Automation](https://valeriehealth.com/solutions/fax-document-automation): Document classification and data extraction
+- [Automated Scheduling](https://valeriehealth.com/solutions/automated-scheduling): Appointment scheduling automation
+- [Growth Analytics](https://valeriehealth.com/solutions/growth-analytics): Operational visibility and insights
+
+## Trust & Legal
+
+- [Trust Center](https://trust.valeriehealth.com/): Vanta-hosted trust center
+- [Privacy Policy](https://valeriehealth.com/privacy): HIPAA Business Associate posture; contact support@valeriehealth.com
+- [Terms of Service](https://valeriehealth.com/terms): Terms of service
+
+## Code
+
+- [GitHub Organization](https://github.com/Valerie-Health): Public org (mirrors only; no published API artifacts)
