@@ -2,24 +2,24 @@ generated: '2026-07-21'
 method: searched
 source: https://valeriehealth.com/
 host: https://valeriehealth.com
-notes: No /.well-known/ discovery surface published. All probes returned 404; only
-  /robots.txt is served. Subdomains (docs., api., developers., status., security.)
-  resolve via wildcard DNS to the same Framer site as the apex and serve no distinct
-  developer surface. Statuses recorded 2026-07-21.
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-- path: /llms.txt
-  status: 404
-- path: /security.txt
-  status: 404
-- path: /robots.txt
-  status: 200
+notes: No /.well-known/ discovery surface published. All probes returned 404; only /robots.txt is served.
+  Subdomains (docs., api., developers., status., security.) resolve via wildcard DNS to the same Framer
+  site as the apex and serve no distinct developer surface. Statuses recorded 2026-07-21.
+hosts:
+- host: https://valeriehealth.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
